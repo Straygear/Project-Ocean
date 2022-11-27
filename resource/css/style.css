@@ -1,0 +1,146 @@
+
+html{
+    font-family: sans-serif;
+}
+
+h3{
+    text-align: center;
+}
+
+h1{
+    color: #91608E;
+    font-family: Lobster, serif;
+    letter-spacing: 2px;
+    align-self: center;
+    justify-items: center;
+    margin: auto;
+}
+
+p{
+    margin: 12px;
+    padding: 12px;
+}
+
+h3{
+    margin: 12px;
+    padding: px;
+}
+
+header{
+    display: flex;
+    align-items: flex-start;
+}
+
+a:link, a:visited {
+    color: rgb(57, 95, 151);
+    text-decoration: none;
+}
+
+
+a:hover, a:active{
+    color:rgb(255, 189, 108);
+    cursor: pointer;
+}
+
+.email:hover, .email:active {
+    color: #4B6FA0;
+    cursor: pointer;
+}
+
+.site-nav li{
+    list-style: none;
+    display: none;
+}
+
+.jumbotron {
+    background: linear-gradient(0deg,rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/grouppose.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    max-width: 100%;
+    height: 585px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 90%;
+    color: white;
+    font-size: 3rem;
+    font-family: Lobster, serif;
+    letter-spacing: 5px;
+    z-index: 0;
+    display: none;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kennosta-body, p h3 {
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+    font-size: 1.10em;
+    color: #4B6FA0;
+}
+
+.kennosta-body {
+    background-color: #FFD193;
+    width: 100%;
+}
+
+.juff {
+    width: 240px;
+    height: 430px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.servisionan-body, p h3 {
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+    font-size: 1.10em;
+    color: #B7C6AD;
+}
+
+.servisionan-body {
+    background-color: #91608E;
+    width: 100%;
+}
+
+.meneer {
+    width: 240px;
+    height: 430px;
+}
+
+.mapouter{
+    border: solid;
+    color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inscribi, li h3{
+    letter-spacing: 0.5px;
+    line-height: 4;
+    font-size: 1.15em;
+    width: 100%;
+    background-color: #B7C6AD;
+    margin: auto;
+    align-items: center;
+    color: #91608E;
+}
+
+.inscribi li {
+    list-style: none;
+    text-align: center;
+    padding-right: 40px;
+}
+
+
+  @media only screen and (min-width: 989px) {}
+  @media only screen and (max-width: 768px) {}
+  @media only screen and (max-width: 576px) {}
